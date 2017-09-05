@@ -1,0 +1,6 @@
+framework module Pods_WHOOSH {
+  umbrella header "Pods-WHOOSH-umbrella.h"
+
+  export *
+  module * { export * }
+}

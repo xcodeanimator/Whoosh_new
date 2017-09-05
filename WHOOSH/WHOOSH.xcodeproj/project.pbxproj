@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268E1858F0E77969800C9869 /* Pods_WHOOSHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A455E3905A39FF104FACFC /* Pods_WHOOSHTests.framework */; };
+		55A4B5429167BE81C9428CBC /* Pods_WHOOSHUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15191434F40D6D9E196FBD2B /* Pods_WHOOSHUITests.framework */; };
+		9B8FEF9BA0BA73CB51B0BF99 /* Pods_WHOOSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DFB121D49F5BF1F95D487B /* Pods_WHOOSH.framework */; };
+		DF64399F1F55430400197D47 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF64399D1F55430400197D47 /* ENSideMenu.swift */; };
+		DF6439A01F55430400197D47 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF64399E1F55430400197D47 /* ENSideMenuNavigationController.swift */; };
+		DF6439CB1F55601A00197D47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6439CA1F55601A00197D47 /* SWRevealViewController.m */; };
+		DF6439CF1F5569B000197D47 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6439CE1F5569B000197D47 /* ListViewController.swift */; };
+		DF6439D11F556A1F00197D47 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6439D01F556A1F00197D47 /* MenuController.swift */; };
+		DF6439D31F556B8A00197D47 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6439D21F556B8A00197D47 /* menu.png */; };
+		DF6439D51F556BFA00197D47 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6439D41F556BFA00197D47 /* clock.png */; };
+		DF6439D71F556CDB00197D47 /* notification.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6439D61F556CDB00197D47 /* notification.png */; };
+		DF6439D91F556D3A00197D47 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6439D81F556D3A00197D47 /* user.png */; };
+		DF6439DE1F558A9700197D47 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6439DD1F558A9700197D47 /* CustomTableViewCell.swift */; };
+		DF84A9541F593A8E0090182E /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = DF84A9531F593A8E0090182E /* edit.png */; };
+		DF84A9931F5957A50090182E /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF84A9921F5957A50090182E /* UploadViewController.swift */; };
+		DF9580771F513D7400484036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9580761F513D7400484036 /* AppDelegate.swift */; };
+		DF9580791F513D7400484036 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9580781F513D7400484036 /* ViewController1.swift */; };
+		DF95807C1F513D7400484036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF95807A1F513D7400484036 /* Main.storyboard */; };
+		DF95807F1F513D7400484036 /* WHOOSH.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF95807D1F513D7400484036 /* WHOOSH.xcdatamodeld */; };
+		DF9580811F513D7400484036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9580801F513D7400484036 /* Assets.xcassets */; };
+		DF9580841F513D7400484036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9580821F513D7400484036 /* LaunchScreen.storyboard */; };
+		DF95808F1F513D7400484036 /* WHOOSHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95808E1F513D7400484036 /* WHOOSHTests.swift */; };
+		DF95809A1F513D7400484036 /* WHOOSHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9580991F513D7400484036 /* WHOOSHUITests.swift */; };
+		DF9580AA1F513E9F00484036 /* 01_Splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9580A91F513E9F00484036 /* 01_Splash@3x.png */; };
+		DF9580AC1F514D2200484036 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9580AB1F514D2200484036 /* LogInViewController.swift */; };
+		DF9580B01F515D0800484036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF9580AF1F515D0800484036 /* GoogleService-Info.plist */; };
+		DF971BA41F56824D00DFFBE8 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = DF971BA31F56824D00DFFBE8 /* logout.png */; };
+		DF971BA61F5688F500DFFBE8 /* To-Do_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF971BA51F5688F500DFFBE8 /* To-Do_ViewController.swift */; };
+		DF971BA81F56BBB900DFFBE8 /* sathya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF971BA71F56BBB900DFFBE8 /* sathya.jpg */; };
+		DF971BAF1F56ED3C00DFFBE8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF971BAE1F56ED3C00DFFBE8 /* DataService.swift */; };
+		DFAC4D771F57CCF7000F424F /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D761F57CCF7000F424F /* blue.png */; };
+		DFAC4D791F57D027000F424F /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D781F57D027000F424F /* plus.png */; };
+		DFAC4D7D1F57DC70000F424F /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D7C1F57DC70000F424F /* cancel.png */; };
+		DFAC4D7F1F57DE0E000F424F /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D7E1F57DE0E000F424F /* close.png */; };
+		DFAC4D811F57DE6D000F424F /* addblue.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D801F57DE6D000F424F /* addblue.png */; };
+		DFAC4D831F57DFEA000F424F /* doneBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D821F57DFEA000F424F /* doneBlue.png */; };
+		DFAC4D851F57E594000F424F /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = DFAC4D841F57E594000F424F /* list.png */; };
+		DFAC4D871F5809E0000F424F /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4D861F5809E0000F424F /* NewTaskViewController.swift */; };
+		DFAC4D891F582A0E000F424F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC4D881F582A0E000F424F /* NotificationManager.swift */; };
+		DFC397041F541EBE001F2002 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397031F541EBE001F2002 /* RegisterViewController.swift */; };
+		DFC3971D1F5429AB001F2002 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397071F5429AB001F2002 /* IQNSArray+Sort.swift */; };
+		DFC3971E1F5429AB001F2002 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397081F5429AB001F2002 /* IQUIScrollView+Additions.swift */; };
+		DFC3971F1F5429AB001F2002 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397091F5429AB001F2002 /* IQUITextFieldView+Additions.swift */; };
+		DFC397201F5429AB001F2002 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3970A1F5429AB001F2002 /* IQUIView+Hierarchy.swift */; };
+		DFC397211F5429AB001F2002 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3970B1F5429AB001F2002 /* IQUIViewController+Additions.swift */; };
+		DFC397221F5429AB001F2002 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3970C1F5429AB001F2002 /* IQUIWindow+Hierarchy.swift */; };
+		DFC397231F5429AB001F2002 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3970E1F5429AB001F2002 /* IQKeyboardManagerConstants.swift */; };
+		DFC397241F5429AB001F2002 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3970F1F5429AB001F2002 /* IQKeyboardManagerConstantsInternal.swift */; };
+		DFC397251F5429AB001F2002 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397101F5429AB001F2002 /* IQKeyboardManager.swift */; };
+		DFC397261F5429AB001F2002 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397121F5429AB001F2002 /* IQKeyboardReturnKeyHandler.swift */; };
+		DFC397271F5429AB001F2002 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397141F5429AB001F2002 /* IQTextView.swift */; };
+		DFC397281F5429AB001F2002 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397161F5429AB001F2002 /* IQBarButtonItem.swift */; };
+		DFC397291F5429AB001F2002 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397171F5429AB001F2002 /* IQPreviousNextView.swift */; };
+		DFC3972A1F5429AB001F2002 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397181F5429AB001F2002 /* IQTitleBarButtonItem.swift */; };
+		DFC3972B1F5429AB001F2002 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC397191F5429AB001F2002 /* IQToolbar.swift */; };
+		DFC3972C1F5429AB001F2002 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3971A1F5429AB001F2002 /* IQUIView+IQKeyboardToolbar.swift */; };
+		DFC3972D1F5429AB001F2002 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFC3971C1F5429AB001F2002 /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF95808B1F513D7400484036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF95806B1F513D7400484036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9580721F513D7400484036;
+			remoteInfo = WHOOSH;
+		};
+		DF9580961F513D7400484036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF95806B1F513D7400484036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9580721F513D7400484036;
+			remoteInfo = WHOOSH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A455E3905A39FF104FACFC /* Pods_WHOOSHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHOOSHTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15191434F40D6D9E196FBD2B /* Pods_WHOOSHUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHOOSHUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23599288A86728A9EE19697D /* Pods-WHOOSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHOOSH.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHOOSH/Pods-WHOOSH.release.xcconfig"; sourceTree = "<group>"; };
+		258B8589C7265D20CEBD5DE1 /* Pods-WHOOSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHOOSH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHOOSH/Pods-WHOOSH.debug.xcconfig"; sourceTree = "<group>"; };
+		46DFB121D49F5BF1F95D487B /* Pods_WHOOSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHOOSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB26FC067AB63FF65640BF3 /* Pods-WHOOSHUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHOOSHUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHOOSHUITests/Pods-WHOOSHUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D25234F268D6E1AB6FCC49 /* Pods-WHOOSHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHOOSHTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHOOSHTests/Pods-WHOOSHTests.release.xcconfig"; sourceTree = "<group>"; };
+		D226177FC14F28B67759DC82 /* Pods-WHOOSHUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHOOSHUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHOOSHUITests/Pods-WHOOSHUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF64399D1F55430400197D47 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		DF64399E1F55430400197D47 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		DF6439C91F55601A00197D47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DF6439CA1F55601A00197D47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DF6439CE1F5569B000197D47 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DF6439D01F556A1F00197D47 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		DF6439D21F556B8A00197D47 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		DF6439D41F556BFA00197D47 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = SWRevealViewController/clock.png; sourceTree = "<group>"; };
+		DF6439D61F556CDB00197D47 /* notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification.png; sourceTree = "<group>"; };
+		DF6439D81F556D3A00197D47 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		DF6439DA1F557BB300197D47 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DF6439DD1F558A9700197D47 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DF84A9531F593A8E0090182E /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		DF84A9921F5957A50090182E /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		DF9580731F513D7400484036 /* WHOOSH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHOOSH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9580761F513D7400484036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF9580781F513D7400484036 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		DF95807B1F513D7400484036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF95807E1F513D7400484036 /* WHOOSH.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WHOOSH.xcdatamodel; sourceTree = "<group>"; };
+		DF9580801F513D7400484036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF9580831F513D7400484036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF9580851F513D7400484036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF95808A1F513D7400484036 /* WHOOSHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHOOSHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF95808E1F513D7400484036 /* WHOOSHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOOSHTests.swift; sourceTree = "<group>"; };
+		DF9580901F513D7400484036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9580951F513D7400484036 /* WHOOSHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHOOSHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9580991F513D7400484036 /* WHOOSHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOOSHUITests.swift; sourceTree = "<group>"; };
+		DF95809B1F513D7400484036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9580A91F513E9F00484036 /* 01_Splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01_Splash@3x.png"; sourceTree = "<group>"; };
+		DF9580AB1F514D2200484036 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		DF9580AF1F515D0800484036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF971BA31F56824D00DFFBE8 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		DF971BA51F5688F500DFFBE8 /* To-Do_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "To-Do_ViewController.swift"; sourceTree = "<group>"; };
+		DF971BA71F56BBB900DFFBE8 /* sathya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sathya.jpg; sourceTree = "<group>"; };
+		DF971BAE1F56ED3C00DFFBE8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DFAC4D761F57CCF7000F424F /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		DFAC4D781F57D027000F424F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		DFAC4D7C1F57DC70000F424F /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		DFAC4D7E1F57DE0E000F424F /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		DFAC4D801F57DE6D000F424F /* addblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addblue.png; sourceTree = "<group>"; };
+		DFAC4D821F57DFEA000F424F /* doneBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneBlue.png; sourceTree = "<group>"; };
+		DFAC4D841F57E594000F424F /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		DFAC4D861F5809E0000F424F /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		DFAC4D881F582A0E000F424F /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		DFC397031F541EBE001F2002 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DFC397071F5429AB001F2002 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		DFC397081F5429AB001F2002 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		DFC397091F5429AB001F2002 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		DFC3970A1F5429AB001F2002 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		DFC3970B1F5429AB001F2002 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		DFC3970C1F5429AB001F2002 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		DFC3970E1F5429AB001F2002 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		DFC3970F1F5429AB001F2002 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		DFC397101F5429AB001F2002 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		DFC397111F5429AB001F2002 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		DFC397121F5429AB001F2002 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		DFC397141F5429AB001F2002 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		DFC397161F5429AB001F2002 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		DFC397171F5429AB001F2002 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		DFC397181F5429AB001F2002 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		DFC397191F5429AB001F2002 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		DFC3971A1F5429AB001F2002 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		DFC3971C1F5429AB001F2002 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E44606219394C33D4AE0643F /* Pods-WHOOSHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHOOSHTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHOOSHTests/Pods-WHOOSHTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF9580701F513D7400484036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8FEF9BA0BA73CB51B0BF99 /* Pods_WHOOSH.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9580871F513D7400484036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E1858F0E77969800C9869 /* Pods_WHOOSHTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9580921F513D7400484036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A4B5429167BE81C9428CBC /* Pods_WHOOSHUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F84B65CC1D6124A56E5FCFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258B8589C7265D20CEBD5DE1 /* Pods-WHOOSH.debug.xcconfig */,
+				23599288A86728A9EE19697D /* Pods-WHOOSH.release.xcconfig */,
+				E44606219394C33D4AE0643F /* Pods-WHOOSHTests.debug.xcconfig */,
+				B8D25234F268D6E1AB6FCC49 /* Pods-WHOOSHTests.release.xcconfig */,
+				ABB26FC067AB63FF65640BF3 /* Pods-WHOOSHUITests.debug.xcconfig */,
+				D226177FC14F28B67759DC82 /* Pods-WHOOSHUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF64399C1F55430400197D47 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DF64399D1F55430400197D47 /* ENSideMenu.swift */,
+				DF64399E1F55430400197D47 /* ENSideMenuNavigationController.swift */,
+			);
+			name = Library;
+			path = IQKeyboardManagerSwift/Library;
+			sourceTree = "<group>";
+		};
+		DF6439C81F55601A00197D47 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF6439C91F55601A00197D47 /* SWRevealViewController.h */,
+				DF6439CA1F55601A00197D47 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		DF95806A1F513D7400484036 = {
+			isa = PBXGroup;
+			children = (
+				DF9580751F513D7400484036 /* WHOOSH */,
+				DF95808D1F513D7400484036 /* WHOOSHTests */,
+				DF9580981F513D7400484036 /* WHOOSHUITests */,
+				DF9580741F513D7400484036 /* Products */,
+				3F84B65CC1D6124A56E5FCFB /* Pods */,
+				E096FF5D69654B7D6B8D6A7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF9580741F513D7400484036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF9580731F513D7400484036 /* WHOOSH.app */,
+				DF95808A1F513D7400484036 /* WHOOSHTests.xctest */,
+				DF9580951F513D7400484036 /* WHOOSHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9580751F513D7400484036 /* WHOOSH */ = {
+			isa = PBXGroup;
+			children = (
+				DF9580761F513D7400484036 /* AppDelegate.swift */,
+				DF64399C1F55430400197D47 /* Library */,
+				DFC397051F5429AB001F2002 /* IQKeyboardManagerSwift */,
+				DF9580781F513D7400484036 /* ViewController1.swift */,
+				DF9580AB1F514D2200484036 /* LogInViewController.swift */,
+				DFC397031F541EBE001F2002 /* RegisterViewController.swift */,
+				DF971BAE1F56ED3C00DFFBE8 /* DataService.swift */,
+				DF6439DD1F558A9700197D47 /* CustomTableViewCell.swift */,
+				DF971BA51F5688F500DFFBE8 /* To-Do_ViewController.swift */,
+				DFAC4D861F5809E0000F424F /* NewTaskViewController.swift */,
+				DFAC4D881F582A0E000F424F /* NotificationManager.swift */,
+				DF95807A1F513D7400484036 /* Main.storyboard */,
+				DF84A9921F5957A50090182E /* UploadViewController.swift */,
+				DF6439CE1F5569B000197D47 /* ListViewController.swift */,
+				DF6439DA1F557BB300197D47 /* Header.h */,
+				DF6439D01F556A1F00197D47 /* MenuController.swift */,
+				DF6439C81F55601A00197D47 /* SWRevealViewController */,
+				DF9580A91F513E9F00484036 /* 01_Splash@3x.png */,
+				DFAC4D781F57D027000F424F /* plus.png */,
+				DF84A9531F593A8E0090182E /* edit.png */,
+				DFAC4D761F57CCF7000F424F /* blue.png */,
+				DF971BA71F56BBB900DFFBE8 /* sathya.jpg */,
+				DFAC4D7C1F57DC70000F424F /* cancel.png */,
+				DFAC4D7E1F57DE0E000F424F /* close.png */,
+				DFAC4D821F57DFEA000F424F /* doneBlue.png */,
+				DF6439D61F556CDB00197D47 /* notification.png */,
+				DFAC4D841F57E594000F424F /* list.png */,
+				DF6439D81F556D3A00197D47 /* user.png */,
+				DFAC4D801F57DE6D000F424F /* addblue.png */,
+				DF971BA31F56824D00DFFBE8 /* logout.png */,
+				DF6439D41F556BFA00197D47 /* clock.png */,
+				DF9580801F513D7400484036 /* Assets.xcassets */,
+				DF6439D21F556B8A00197D47 /* menu.png */,
+				DF9580821F513D7400484036 /* LaunchScreen.storyboard */,
+				DF9580851F513D7400484036 /* Info.plist */,
+				DF95807D1F513D7400484036 /* WHOOSH.xcdatamodeld */,
+				DF9580AF1F515D0800484036 /* GoogleService-Info.plist */,
+			);
+			path = WHOOSH;
+			sourceTree = "<group>";
+		};
+		DF95808D1F513D7400484036 /* WHOOSHTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF95808E1F513D7400484036 /* WHOOSHTests.swift */,
+				DF9580901F513D7400484036 /* Info.plist */,
+			);
+			path = WHOOSHTests;
+			sourceTree = "<group>";
+		};
+		DF9580981F513D7400484036 /* WHOOSHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF9580991F513D7400484036 /* WHOOSHUITests.swift */,
+				DF95809B1F513D7400484036 /* Info.plist */,
+			);
+			path = WHOOSHUITests;
+			sourceTree = "<group>";
+		};
+		DFC397051F5429AB001F2002 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DFC397061F5429AB001F2002 /* Categories */,
+				DFC3970D1F5429AB001F2002 /* Constants */,
+				DFC397101F5429AB001F2002 /* IQKeyboardManager.swift */,
+				DFC397111F5429AB001F2002 /* IQKeyboardManagerSwift.h */,
+				DFC397121F5429AB001F2002 /* IQKeyboardReturnKeyHandler.swift */,
+				DFC397131F5429AB001F2002 /* IQTextView */,
+				DFC397151F5429AB001F2002 /* IQToolbar */,
+				DFC3971B1F5429AB001F2002 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		DFC397061F5429AB001F2002 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DFC397071F5429AB001F2002 /* IQNSArray+Sort.swift */,
+				DFC397081F5429AB001F2002 /* IQUIScrollView+Additions.swift */,
+				DFC397091F5429AB001F2002 /* IQUITextFieldView+Additions.swift */,
+				DFC3970A1F5429AB001F2002 /* IQUIView+Hierarchy.swift */,
+				DFC3970B1F5429AB001F2002 /* IQUIViewController+Additions.swift */,
+				DFC3970C1F5429AB001F2002 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DFC3970D1F5429AB001F2002 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DFC3970E1F5429AB001F2002 /* IQKeyboardManagerConstants.swift */,
+				DFC3970F1F5429AB001F2002 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DFC397131F5429AB001F2002 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DFC397141F5429AB001F2002 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		DFC397151F5429AB001F2002 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				DFC397161F5429AB001F2002 /* IQBarButtonItem.swift */,
+				DFC397171F5429AB001F2002 /* IQPreviousNextView.swift */,
+				DFC397181F5429AB001F2002 /* IQTitleBarButtonItem.swift */,
+				DFC397191F5429AB001F2002 /* IQToolbar.swift */,
+				DFC3971A1F5429AB001F2002 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		DFC3971B1F5429AB001F2002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFC3971C1F5429AB001F2002 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E096FF5D69654B7D6B8D6A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46DFB121D49F5BF1F95D487B /* Pods_WHOOSH.framework */,
+				00A455E3905A39FF104FACFC /* Pods_WHOOSHTests.framework */,
+				15191434F40D6D9E196FBD2B /* Pods_WHOOSHUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF9580721F513D7400484036 /* WHOOSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF95809E1F513D7400484036 /* Build configuration list for PBXNativeTarget "WHOOSH" */;
+			buildPhases = (
+				BE4B37454E2A423D3837C2B9 /* [CP] Check Pods Manifest.lock */,
+				DF95806F1F513D7400484036 /* Sources */,
+				DF9580701F513D7400484036 /* Frameworks */,
+				DF9580711F513D7400484036 /* Resources */,
+				46D43750A65BB038D4100DF8 /* [CP] Embed Pods Frameworks */,
+				5B9345C7166CA9EAF5D8DB55 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHOOSH;
+			productName = WHOOSH;
+			productReference = DF9580731F513D7400484036 /* WHOOSH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF9580891F513D7400484036 /* WHOOSHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9580A11F513D7400484036 /* Build configuration list for PBXNativeTarget "WHOOSHTests" */;
+			buildPhases = (
+				67A3956A39673F249C9121D3 /* [CP] Check Pods Manifest.lock */,
+				DF9580861F513D7400484036 /* Sources */,
+				DF9580871F513D7400484036 /* Frameworks */,
+				DF9580881F513D7400484036 /* Resources */,
+				43BDB39E32C3B0EA67DC73BA /* [CP] Embed Pods Frameworks */,
+				C13625CFBE610B9B6EFC11DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF95808C1F513D7400484036 /* PBXTargetDependency */,
+			);
+			name = WHOOSHTests;
+			productName = WHOOSHTests;
+			productReference = DF95808A1F513D7400484036 /* WHOOSHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF9580941F513D7400484036 /* WHOOSHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9580A41F513D7400484036 /* Build configuration list for PBXNativeTarget "WHOOSHUITests" */;
+			buildPhases = (
+				277EB26F62408C1D27F7DA97 /* [CP] Check Pods Manifest.lock */,
+				DF9580911F513D7400484036 /* Sources */,
+				DF9580921F513D7400484036 /* Frameworks */,
+				DF9580931F513D7400484036 /* Resources */,
+				188D015FB3503FAC6FA4483A /* [CP] Embed Pods Frameworks */,
+				C5478225EF6597421A373252 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF9580971F513D7400484036 /* PBXTargetDependency */,
+			);
+			name = WHOOSHUITests;
+			productName = WHOOSHUITests;
+			productReference = DF9580951F513D7400484036 /* WHOOSHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF95806B1F513D7400484036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WHOOSHTODO;
+				TargetAttributes = {
+					DF9580721F513D7400484036 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3Z7CA93BB3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					DF9580891F513D7400484036 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF9580721F513D7400484036;
+					};
+					DF9580941F513D7400484036 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF9580721F513D7400484036;
+					};
+				};
+			};
+			buildConfigurationList = DF95806E1F513D7400484036 /* Build configuration list for PBXProject "WHOOSH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF95806A1F513D7400484036;
+			productRefGroup = DF9580741F513D7400484036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF9580721F513D7400484036 /* WHOOSH */,
+				DF9580891F513D7400484036 /* WHOOSHTests */,
+				DF9580941F513D7400484036 /* WHOOSHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF9580711F513D7400484036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAC4D851F57E594000F424F /* list.png in Resources */,
+				DFAC4D831F57DFEA000F424F /* doneBlue.png in Resources */,
+				DF9580841F513D7400484036 /* LaunchScreen.storyboard in Resources */,
+				DF971BA41F56824D00DFFBE8 /* logout.png in Resources */,
+				DFAC4D791F57D027000F424F /* plus.png in Resources */,
+				DFAC4D7F1F57DE0E000F424F /* close.png in Resources */,
+				DF9580AA1F513E9F00484036 /* 01_Splash@3x.png in Resources */,
+				DF6439D31F556B8A00197D47 /* menu.png in Resources */,
+				DFC3972D1F5429AB001F2002 /* IQKeyboardManager.bundle in Resources */,
+				DF6439D51F556BFA00197D47 /* clock.png in Resources */,
+				DF84A9541F593A8E0090182E /* edit.png in Resources */,
+				DFAC4D771F57CCF7000F424F /* blue.png in Resources */,
+				DF9580811F513D7400484036 /* Assets.xcassets in Resources */,
+				DF971BA81F56BBB900DFFBE8 /* sathya.jpg in Resources */,
+				DF6439D71F556CDB00197D47 /* notification.png in Resources */,
+				DF95807C1F513D7400484036 /* Main.storyboard in Resources */,
+				DF9580B01F515D0800484036 /* GoogleService-Info.plist in Resources */,
+				DF6439D91F556D3A00197D47 /* user.png in Resources */,
+				DFAC4D7D1F57DC70000F424F /* cancel.png in Resources */,
+				DFAC4D811F57DE6D000F424F /* addblue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9580881F513D7400484036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9580931F513D7400484036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188D015FB3503FAC6FA4483A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSHUITests/Pods-WHOOSHUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		277EB26F62408C1D27F7DA97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHOOSHUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BDB39E32C3B0EA67DC73BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSHTests/Pods-WHOOSHTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D43750A65BB038D4100DF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSH/Pods-WHOOSH-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSH/Pods-WHOOSH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9345C7166CA9EAF5D8DB55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSH/Pods-WHOOSH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A3956A39673F249C9121D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHOOSHTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4B37454E2A423D3837C2B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHOOSH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13625CFBE610B9B6EFC11DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSHTests/Pods-WHOOSHTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5478225EF6597421A373252 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHOOSHUITests/Pods-WHOOSHUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF95806F1F513D7400484036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC3972C1F5429AB001F2002 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				DF9580AC1F514D2200484036 /* LogInViewController.swift in Sources */,
+				DFC397041F541EBE001F2002 /* RegisterViewController.swift in Sources */,
+				DFC397211F5429AB001F2002 /* IQUIViewController+Additions.swift in Sources */,
+				DF64399F1F55430400197D47 /* ENSideMenu.swift in Sources */,
+				DF6439A01F55430400197D47 /* ENSideMenuNavigationController.swift in Sources */,
+				DF6439CB1F55601A00197D47 /* SWRevealViewController.m in Sources */,
+				DFC3972B1F5429AB001F2002 /* IQToolbar.swift in Sources */,
+				DFC397281F5429AB001F2002 /* IQBarButtonItem.swift in Sources */,
+				DF971BAF1F56ED3C00DFFBE8 /* DataService.swift in Sources */,
+				DFC3972A1F5429AB001F2002 /* IQTitleBarButtonItem.swift in Sources */,
+				DFC3971D1F5429AB001F2002 /* IQNSArray+Sort.swift in Sources */,
+				DFC397231F5429AB001F2002 /* IQKeyboardManagerConstants.swift in Sources */,
+				DFC397271F5429AB001F2002 /* IQTextView.swift in Sources */,
+				DF9580791F513D7400484036 /* ViewController1.swift in Sources */,
+				DFC397251F5429AB001F2002 /* IQKeyboardManager.swift in Sources */,
+				DFAC4D871F5809E0000F424F /* NewTaskViewController.swift in Sources */,
+				DFC397221F5429AB001F2002 /* IQUIWindow+Hierarchy.swift in Sources */,
+				DFC397201F5429AB001F2002 /* IQUIView+Hierarchy.swift in Sources */,
+				DF9580771F513D7400484036 /* AppDelegate.swift in Sources */,
+				DF6439DE1F558A9700197D47 /* CustomTableViewCell.swift in Sources */,
+				DFC3971E1F5429AB001F2002 /* IQUIScrollView+Additions.swift in Sources */,
+				DFAC4D891F582A0E000F424F /* NotificationManager.swift in Sources */,
+				DFC397261F5429AB001F2002 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				DFC397291F5429AB001F2002 /* IQPreviousNextView.swift in Sources */,
+				DF84A9931F5957A50090182E /* UploadViewController.swift in Sources */,
+				DFC3971F1F5429AB001F2002 /* IQUITextFieldView+Additions.swift in Sources */,
+				DFC397241F5429AB001F2002 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				DF6439CF1F5569B000197D47 /* ListViewController.swift in Sources */,
+				DF6439D11F556A1F00197D47 /* MenuController.swift in Sources */,
+				DF971BA61F5688F500DFFBE8 /* To-Do_ViewController.swift in Sources */,
+				DF95807F1F513D7400484036 /* WHOOSH.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9580861F513D7400484036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95808F1F513D7400484036 /* WHOOSHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9580911F513D7400484036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95809A1F513D7400484036 /* WHOOSHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF95808C1F513D7400484036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF9580721F513D7400484036 /* WHOOSH */;
+			targetProxy = DF95808B1F513D7400484036 /* PBXContainerItemProxy */;
+		};
+		DF9580971F513D7400484036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF9580721F513D7400484036 /* WHOOSH */;
+			targetProxy = DF9580961F513D7400484036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF95807A1F513D7400484036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF95807B1F513D7400484036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF9580821F513D7400484036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF9580831F513D7400484036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF95809C1F513D7400484036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF95809D1F513D7400484036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF95809F1F513D7400484036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258B8589C7265D20CEBD5DE1 /* Pods-WHOOSH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Z7CA93BB3;
+				INFOPLIST_FILE = WHOOSH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.WHOOSH-TODO.WHOOSH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WHOOSH/Header.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF9580A01F513D7400484036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23599288A86728A9EE19697D /* Pods-WHOOSH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Z7CA93BB3;
+				INFOPLIST_FILE = WHOOSH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.WHOOSH-TODO.WHOOSH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WHOOSH/Header.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF9580A21F513D7400484036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44606219394C33D4AE0643F /* Pods-WHOOSHTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WHOOSHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.WHOOSH-TODO.WHOOSHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHOOSH.app/WHOOSH";
+			};
+			name = Debug;
+		};
+		DF9580A31F513D7400484036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D25234F268D6E1AB6FCC49 /* Pods-WHOOSHTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WHOOSHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.WHOOSH-TODO.WHOOSHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHOOSH.app/WHOOSH";
+			};
+			name = Release;
+		};
+		DF9580A51F513D7400484036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB26FC067AB63FF65640BF3 /* Pods-WHOOSHUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WHOOSHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.WHOOSH-TODO.WHOOSHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WHOOSH;
+			};
+			name = Debug;
+		};
+		DF9580A61F513D7400484036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D226177FC14F28B67759DC82 /* Pods-WHOOSHUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WHOOSHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.WHOOSH-TODO.WHOOSHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WHOOSH;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF95806E1F513D7400484036 /* Build configuration list for PBXProject "WHOOSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95809C1F513D7400484036 /* Debug */,
+				DF95809D1F513D7400484036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF95809E1F513D7400484036 /* Build configuration list for PBXNativeTarget "WHOOSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95809F1F513D7400484036 /* Debug */,
+				DF9580A01F513D7400484036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9580A11F513D7400484036 /* Build configuration list for PBXNativeTarget "WHOOSHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9580A21F513D7400484036 /* Debug */,
+				DF9580A31F513D7400484036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9580A41F513D7400484036 /* Build configuration list for PBXNativeTarget "WHOOSHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9580A51F513D7400484036 /* Debug */,
+				DF9580A61F513D7400484036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF95807D1F513D7400484036 /* WHOOSH.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF95807E1F513D7400484036 /* WHOOSH.xcdatamodel */,
+			);
+			currentVersion = DF95807E1F513D7400484036 /* WHOOSH.xcdatamodel */;
+			path = WHOOSH.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF95806B1F513D7400484036 /* Project object */;
+}
